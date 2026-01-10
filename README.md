@@ -79,13 +79,13 @@ The dataset is **highly heterogeneous** and **class-imbalanced**, reflecting rea
 - One-vs-Rest AUROC: **0.945**
 - Weighted F1-score: **0.89**
 
-## 🔍 Explainable AI (XAI)
+## Explainable AI (XAI)
 
 To validate clinical trust, **post-hoc explainability** is applied to the classification model.
 
 ---
 
-### 🔥 Grad-CAM
+### Grad-CAM
 
 
 Grad-CAM highlights **class-discriminative regions** influencing model predictions.
@@ -96,7 +96,7 @@ Model attention consistently concentrates around the **optic nerve head**, align
 
 ---
 
-### 🧊 SHAP (Paper-Style Attribution Maps)
+### SHAP (Paper-Style Attribution Maps)
 
 SHAP visualizations provide **class-wise evidence attribution**, illustrating how different regions support or oppose each diagnostic class.
 
@@ -107,7 +107,7 @@ SHAP visualizations provide **class-wise evidence attribution**, illustrating ho
 - **Blue** → Negative contribution  
 - **Block-wise visualization** for improved interpretability
 
-## ⚙️ Setup & Requirements
+## Setup & Requirements
 
 Install the required dependencies using:
 
